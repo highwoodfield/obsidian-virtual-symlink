@@ -3,7 +3,7 @@
 	"name": "Virtual Symlink",
 	"version": "0.1.0",
 	"minAppVersion": "0.13.23",
-	"description": "Creates a note from an original one which acts like a symlink",
+	"description": "Create a note that contains a link to the currently opened note",
 	"author": "highwoodfield",
 	"authorUrl": "https://github.com/trydalch https://github.com/highwoodfield",
 	"isDesktopOnly": false
