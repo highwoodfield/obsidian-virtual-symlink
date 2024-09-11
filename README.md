@@ -6,6 +6,8 @@ By installing it, you can create a note that contains a link to the currently op
 このプラグインはObsidianのためのプラグインです。
 このプラグインを導入することで、開いているノートへのリンクが記載された新しいノートを作成することができます。
 
+![sample](./sample.gif)
+
 ## Motivation
 
 I don't categorize notes using tags but rather folders. Therefore, I had to figure out how to categorize a note into multiple categories. I decided to create a note that contains a link to the currently opened note and place it in another folder. To automate this process, I developed this plugin.
