@@ -53,7 +53,8 @@ This note is created by Virtual Symlink plugin.
 		if (parent == null) {
 			throw new Error("parent == null");
 		}
-		await this.app.vault.create(`${parent.path}/LNK ${file.basename}.md`, content);
+		const createdFile = await this.app.vault.create(`${parent.path}/LNK ${file.basename}.md`, content);
+		await this.app.workspace.getLeaf(false).openFile(createdFile);
 	}
 
     onunload() {
